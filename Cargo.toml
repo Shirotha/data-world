@@ -1,0 +1,15 @@
+[package]
+name = "data-world"
+version = "0.1.0"
+edition = "2021"
+authors = ["Shirotha"]
+
+[dependencies]
+serde = "1.0.*"
+bevy_ecs = { version = "0.13.*", features = [ "bevy_reflect" ] }
+bevy_reflect = "0.13.*"
+bevy_scene = "0.13.*"
+bevy_log = "0.13.*"
+
+[dev-dependencies]
+bevy_asset = "0.13.*"
